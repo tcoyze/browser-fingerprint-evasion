@@ -8,10 +8,10 @@ luminati proxy manager running locally
 
 Things of note (ranked from least to most successful):
 
-- Custom mocking + patching was out of date / obsolete
-- Puppeteer extra + stealth commands failed massively
-- Crawlee (default puppeteer settings)
-- Plain old puppeteer + proxy + rotating UA
+- Custom mocking + patching was out of date / obsolete - 0
+- Puppeteer extra + stealth commands failed massively - 0
+- Crawlee (default puppeteer settings) - 7.5
+- Plain old puppeteer + proxy + rotating UA - 38.5
 
 Things to follow up on:
 
