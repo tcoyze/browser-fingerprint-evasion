@@ -6,6 +6,15 @@ Local setup:
 
 luminati proxy manager running locally
 
+```bash
+# luminati lpm setup:
+docker run --publish 22999:22999 -p 24000:24000 luminati/luminati-proxy proxy-manager --iface 0.0.0.0
+
+# in another tab
+npm install
+node src/index.js
+```
+
 Things of note (ranked from least to most successful):
 
 - Custom mocking + patching was out of date / obsolete - 0
