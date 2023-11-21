@@ -1,6 +1,10 @@
 # CreepJs - Bot Detection Test
 
-Random script compiled for fingerprinting analysis testing for refining evasion techniques
+Random script compiled for fingerprinting analysis testing for refining evasion techniques against:
+
+https://abrahamjuliot.github.io/creepjs/
+
+https://github.com/abrahamjuliot/creepjs
 
 Local setup:
 
