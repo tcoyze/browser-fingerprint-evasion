@@ -1,0 +1,9 @@
+{
+  "network": "98.161.246",
+  "org": "Cox Communications Inc.:US Phoenix (Phoenix)",
+  "tokensAvailable": 500,
+  "rateLimitExpireDate": "",
+  "isRateLimited": false,
+  "isNetworkAbuse": false,
+  "intensity": 0.04
+}

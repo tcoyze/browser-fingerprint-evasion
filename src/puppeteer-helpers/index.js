@@ -80,7 +80,21 @@ const buildChromeArgs = (proxyUrl = false, additionalArgs = []) => {
       `--window-size=${defaultWidth},${defaultHeight}`,
       '--window-position=0,0',
       '--ignore-certificate-errors',
-      '--ignore-certificate-errors-spki-list',
+      '--ignore-certificate-errors-skip-list',
+      '--disable-accelerated-2d-canvas',
+      '--hide-scrollbars',
+      '--disable-notifications',
+      '--disable-extensions',
+      '--force-color-profile=srgb',
+      '--mute-audio',
+      '--disable-background-timer-throttling',
+      '--disable-backgrounding-occluded-windows',
+      '--disable-breakpad',
+      '--disable-component-extensions-with-background-pages',
+      '--disable-features=TranslateUI,BlinkGenPropertyTrees,IsolateOrigins,site-per-process',
+      '--disable-ipc-flooding-protection',
+      '--disable-renderer-backgrounding',
+      '--enable-features=NetworkService,NetworkServiceInProcess'
     ]
     : [
       '--disable-gpu',
@@ -94,7 +108,21 @@ const buildChromeArgs = (proxyUrl = false, additionalArgs = []) => {
       `--window-size=${defaultWidth},${defaultHeight}`,
       '--window-position=0,0',
       '--ignore-certificate-errors',
-      '--ignore-certificate-errors-spki-list',
+      '--ignore-certificate-errors-skip-list',
+      '--disable-accelerated-2d-canvas',
+      '--hide-scrollbars',
+      '--disable-notifications',
+      '--disable-extensions',
+      '--force-color-profile=srgb',
+      '--mute-audio',
+      '--disable-background-timer-throttling',
+      '--disable-backgrounding-occluded-windows',
+      '--disable-breakpad',
+      '--disable-component-extensions-with-background-pages',
+      '--disable-features=TranslateUI,BlinkGenPropertyTrees,IsolateOrigins,site-per-process',
+      '--disable-ipc-flooding-protection',
+      '--disable-renderer-backgrounding',
+      '--enable-features=NetworkService,NetworkServiceInProcess'
     ];
 
   return chromeArgs.concat(additionalArgs);
